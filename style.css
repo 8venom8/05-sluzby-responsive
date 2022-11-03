@@ -1,0 +1,490 @@
+*, :after, :before { box-sizing: border-box; }
+
+
+
+body {
+    margin: 60px 20px;
+    background-color: #FAFAFA;
+    font-family: "Montserrat", snas-serif;
+}
+
+.bottom1,
+.bottom2 {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 11px 30px;
+}
+
+ .bottom1 {
+    background-color: #407BFF;
+    display: block;
+    width: 195px;
+    height: 40px;
+    margin-bottom: 5px;
+ }
+
+ .bottom2 {
+    background-color:#8B8B8B;
+    width: 220px;
+    height: 40px;
+    display: block;
+    margin-top: 5px;
+ }
+
+ .radek_mapa,
+ .radek_kaktus,
+ .radek_letadlo,
+ .radek_palma,
+ .radek_destnik,
+ .radek_karavan {
+    display: flex;
+ }
+
+ p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #8B8B8B;
+    font-size: 16px;
+
+}
+
+/* MOBILNÍ VERZE */
+@media screen and (max-width: 500px) {
+
+    .bottoms {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0 60px 0 ;
+    }
+
+    h1,
+    h2 {
+        display: block;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 0 0 42px 0;
+        font-size: 28px;
+    }
+
+    h2 {
+        margin: 0 0 15px 0;
+        font-size: 16px;
+    }
+
+    .uvodni_obrazek {
+        text-align: center;
+        margin: 0 0 40px 20px;
+    }
+
+    .obrazek_mapa {
+        width: 45px;
+        height: 40px;
+        margin: 20px 30px 20px 20px;
+    }
+
+    .obrazek_kaktus {
+        width: 40px;
+        height: 40px;
+        margin: 20px 30px 20px 20px;
+    }
+
+    .obrazek_letadlo {
+        width: 45px;
+        height: 40px;
+        margin: 20px 30px 20px 20px;
+    }
+
+    .obrazek_palma,
+    .obrazek_destnik,
+    .obrazek_karavan {
+        margin: 20px 25px 20px 20px;
+        width: 50px;
+        height: 40px;
+    }
+
+    .radek_mapa,
+    .radek_kaktus,
+    .radek_letadlo,
+    .radek_palma,
+    .radek_destnik,
+    .radek_karavan {
+        display: flex;
+        background-color: white;
+        color: #8B8B8B;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px #407BFF1F;
+        font-size: 13px;
+    }
+
+    .radek_mapa {
+        margin: 30px 0 15px 0;
+    }
+
+    .radek_kaktus {
+        margin: 0 0 15px 0;
+    }
+
+    .radek_letadlo {
+        margin: 0 0 60px 0;
+    }
+
+    .radek_palma {
+        margin: 30px 0 15px 0;
+    }
+
+    .radek_destnik {
+        margin: 0 0 15px 0;
+    }
+
+    .radek_karavan {
+        margin: 0;
+    }
+
+    .radky1 {
+        text-align: center;
+    }
+ }
+
+ .spec,
+ .nasi,
+ .pomuzeme {
+    text-align: center;
+    font-size: 16px;
+    color:#8B8B8B;
+}
+
+/* TABLETOVÁ VERZE */
+
+@media screen and (max-width: 768px) and (min-width: 500px) {
+
+    .body {
+        margin: 60px 20px 60px 20px;
+    }
+    .bottoms {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .bottom1 {
+        margin: 30px 20px 80px 167px;
+        width: 195px;
+        height: 40px;
+    }
+
+    .bottom2 {
+        margin: 30px 167px 80px 0;
+        width: 220px;
+        height: 40px;
+    }
+
+    .uvodni_obrazek {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 30px auto 42px auto;
+        font-size: 28px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .radky1 {
+        display: flex;
+        margin: 40px 20px 80px 20px;
+        justify-content: center;
+        
+    }
+
+    .obrazek_mapa {
+        width: 45px;
+        height: 40px;
+        margin: 40px 90px 20px 90px;
+    }
+
+    .obrazek_kaktus {
+        width: 40px;
+        height: 40px;
+        margin: 40px 90px 20px 90px;
+    }
+
+    .obrazek_letadlo {
+        width: 45px;
+        height: 40px;
+        margin: 40px 90px 20px 90px;
+    }
+    .radek_mapa,
+    .radek_kaktus,
+    .radek_letadlo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: white;
+        color: #8B8B8B;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px #407BFF1F;
+        font-size: 13px;
+        width: 230px;
+        height: 170px;
+        flex: 1 1 calc(100% / 3);
+    }
+    .radek_mapa {
+        margin: 0 20px 0 0;
+    }
+
+    .radek_kaktus {
+        margin: 0 20px 0 0;
+    }
+
+    .radky2 {
+        display: flex;
+        margin: 40px 20px 0 20px;
+        justify-content: center;
+    }
+
+    .radek_palma,
+    .radek_destnik,
+    .radek_karavan {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: white;
+        color: #8B8B8B;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px #407BFF1F;
+        font-size: 13px;
+        width: 230px;
+        height: 170px;
+        flex: 1 1 calc(100% / 3);
+    }
+
+    .radek_palma,
+    .radek_destnik {
+        margin: 0 20px 0 0;
+    }
+    .obrazek_palma,
+    .obrazek_destnik,
+    .obrazek_karavan {
+        width: 50px;
+        height: 40px;
+        margin: 40px 90px 20px 90px;
+    }
+
+    .spec,
+    .nasi,
+    .pomuzeme {
+        text-align: center;
+        font-size: 16px;
+        color:#8B8B8B
+    }
+}
+ /* DESKTOP VERZE */
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    body {
+        margin: 60px 80px 60px 80px;
+    }
+    .uvod {
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: rgb(0, 0, 0);
+        margin-right: 80px;
+        justify-content: center;
+
+    }
+    header {
+        display: flex;
+        flex-basis: 50%;
+        background-color: rgb(189, 255, 189);
+        justify-content: flex-end;
+
+    }
+    .prvni {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+        background-color: pink;
+    }
+    .bottoms {
+        display: flex;
+        background-color: rgb(190, 190, 255);
+        justify-content: flex-start;
+    }
+
+    .bottom2 {
+        margin: 30px 0 0 0;
+    }
+    .bottom1 {
+        margin: 30px 20px 0 0;
+    }
+    h1 {
+        margin: 55px 0 42px 0;
+    }
+    .spec {
+        text-align: left;
+    }
+
+    .druhy {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 80px 0 80px 0;
+        background-color: black;
+        margin-right: 80px;
+        justify-content: center;
+    }
+
+    .odstavec1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+        background-color:rgb(170, 217, 251);
+    }
+
+    .radky1 {
+        display: flex;
+        flex-basis: 50%;
+        background-color: pink; 
+    }
+
+    .pomuzeme {
+        text-align: left;
+        color: #8B8B8B;
+        font-size: 16px;
+    }
+    .obrazek_mapa {
+        width: 45px;
+        height: 40px;
+    }
+
+    .obrazek_kaktus {
+        width: 40px;
+        height: 40px;
+    }
+
+    .obrazek_letadlo {
+        width: 45px;
+        height: 40px;
+    }
+
+    .radek_mapa,
+    .radek_kaktus,
+    .radek_letadlo {
+        display: flex;
+        flex-direction: column;
+        background-color:white;
+        box-shadow: 0 4px 6px #407BFF1F;
+        font-size: 13px;
+        width: 170px;
+        height: 190px;
+        border-radius: 10px;
+        color: #8B8B8B;
+        text-align: center;
+
+    }
+
+    .radek_mapa {
+        margin-right: 20px;
+    }
+
+    .radek_kaktus {
+        margin-right: 20px;
+    }
+
+    .radek_letadlo {
+        margin-right: 60px;
+    }
+
+    h2 {
+        margin: 20px 0 20px 0;
+    }
+
+    .obrazek_mapa {
+        margin: 40px 60px 20px 60px;
+    }
+
+    .obrazek_kaktus {
+        margin: 40px 65px 20px 65px;
+    }
+
+    .obrazek_letadlo {
+        margin: 40px 60px 20px 63px;
+    }
+
+    /*  */
+    .treti {
+        display: flex;
+        background-color: black;
+        margin-right: 80px;
+
+    }
+     .odstavec2 {
+        display: flex;
+        background-color:rgb(170, 217, 251);
+        flex-direction: column;
+        text-align: left;
+     }
+
+     .radky2 {
+        display: flex;
+        background-color: pink;
+        text-align: center;
+     }
+
+    .nasi {
+        color: #8B8B8B;
+        font-size: 16px;
+     }
+
+    h2 {
+        margin: 20px 0 20px 0;
+    }
+    .obrazek_palma,
+    .obrazek_destnik,
+    .obrazek_karavan {
+        width: 50px;
+        height: 40px;
+        margin: 40px 90px 20px 90px;
+        
+    }
+    .radek_karavan,
+    .radek_palma,
+    .radek_destnik {
+        display: flex;
+        flex-direction: column;
+        width: 170px;
+        height: 190px;
+        color: #8B8B8B;
+        background-color:white;
+        box-shadow: 0 4px 6px #407BFF1F;
+        font-size: 13px;
+        border-radius: 10px;
+    }
+
+.radek_palma {
+    margin: 0 20px 0 60px;
+}
+
+.radek_destnik {
+    margin-right: 20px;
+}
+
+.obrazek_palma {
+    margin: 40px 60px 20px 60px;
+}
+.obrazek_destnik {
+    margin: 40px 60px 20px 60px;
+}
+.obrazek_karavan {
+    margin: 40px 60px 20px 60px;
+}
+ }
+
