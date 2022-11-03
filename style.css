@@ -312,7 +312,6 @@ body {
         display: flex;
         flex-direction: column;
         flex-basis: 50%;
-
     }
     .bottoms {
         display: flex;
