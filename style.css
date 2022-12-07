@@ -151,7 +151,7 @@ body {
 
 /* TABLET VERSION */
 
-@media screen and (min-width: 650px) and (max-width: 1040px) {
+@media screen and (min-width: 650px) and (max-width: 1100px) {
 
     /* FIRST SECTION */
     .first-section {
@@ -281,7 +281,7 @@ body {
 
 /* PC VERSION */
 
-@media  screen and (min-width: 1040px) {
+@media  screen and (min-width: 1100px) {
 
 /* FIRST SECTION */
 
