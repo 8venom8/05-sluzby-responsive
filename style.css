@@ -9,6 +9,11 @@ body {
     background-color: #FAFAFA;
     font-family: "Montserrat", snas-serif;
 }
+.obsah {
+    width: 1040px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
 
 
 /* MOBILE VERSION */
