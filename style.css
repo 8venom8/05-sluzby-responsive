@@ -31,6 +31,15 @@ body {
         margin-bottom: 6%;
         text-align: center;
     }
+    .hlavni::after {
+        content: "";
+        display: block; /* na novém řádku */
+        width: 60px;
+        height: 2px;
+        margin-top: 10px;
+        background-color: #407BFF;
+        text-align: center;
+    }
     .exotic {
         font-size: 16px;
         text-align: center;
@@ -50,6 +59,7 @@ body {
         width: 195px;
         height: 40px;
         font-size: 14px;
+        padding: 10px 28px 10px 28px;
     }
     a.first {
         margin-bottom: 10px;
@@ -60,6 +70,9 @@ body {
         width: 220px;
         height: 40px;
         margin-bottom: 11%;
+    }
+    .line {
+        align-items: center;
     }
 
     /* SECOND SECTION */
@@ -136,7 +149,7 @@ body {
 
 /* TABLET VERSION */
 
-@media screen and (min-width: 650px) and (max-width: 1100px) {
+@media screen and (min-width: 650px) and (max-width: 1040px) {
 
     /* FIRST SECTION */
     .first-section {
@@ -153,6 +166,15 @@ body {
         font-size: 28px;
         text-align: center;
         margin-bottom: 4%;
+    }
+    .hlavni::after {
+        content: "";
+        display: block; /* na novém řádku */
+        width: 60px;
+        height: 2px;
+        margin-top: 10px;
+        background-color: #407BFF;
+        text-align: center;
     }
     .exotic {
         margin: 0 10% 4% 10%;
@@ -171,6 +193,7 @@ body {
         width: 195px;
         height: 40px;
         font-size: 14px;
+        padding: 10px 28px 10px 28px;
     }
     a.first {
         margin-bottom: 10px;
@@ -254,7 +277,7 @@ body {
 
 /* PC VERSION */
 
-@media  screen and (min-width: 1100px) {
+@media  screen and (min-width: 1040px) {
 
 /* FIRST SECTION */
 
@@ -273,6 +296,15 @@ body {
 h1 {
     margin: 15% 0 10% 0;
     font-size: 28px;
+}
+.hlavni::after {
+    content: "";
+    display: block; /* na novém řádku */
+    width: 60px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: #407BFF;
+    text-align: center;
 }
 .exotic {
     margin-bottom: 10%;
